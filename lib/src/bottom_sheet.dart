@@ -13,7 +13,7 @@ import 'package:modal_bottom_sheet/src/utils/scroll_to_top_status_bar.dart';
 
 import 'package:modal_bottom_sheet/src/utils/bottom_sheet_suspended_curve.dart';
 
-const Curve _decelerateEasing = Cubic(0.0, 0.0, 0.2, 1.0);
+const Curve _decelerateEasing = Cubic(0.42, 0, 0.58, 1);
 const Curve _modalBottomSheetCurve = _decelerateEasing;
 const Duration _bottomSheetDuration = Duration(milliseconds: 400);
 const double _minFlingVelocity = 500.0;
